@@ -1,6 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>Profile</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
   <body>
-    <h2>Hello,world!</h2>
+    <header id="header" class="wrapper">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="Profile"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <img src="img/mainvisual.png" alt="テキストテキストテキスト">
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="section-title">About</h2>
+        <div class="content">
+          <img src="img/about.jpg" alt="テキストテキストテキスト">
+          <div class="text">
+            <h3 class="content-title">MOMOKA YAMASHIRO</h3>
+            <p>
+              ■経歴<br>
+              　2016年08月・・・開業<br>
+              　2019年11月・・・コンセプトカフェに入店<br>
+              　2022年11月・・・不動産仲介業者に入社<br>
+              　2024年01月・・・株式会社ITPMに入社<br>
+              <br>
+              ■趣味<br>
+              　日本酒巡り・漫画・ゲーム
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="works" class="wrapper">
+        <h2 class="section-title">Works</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/momo1210love/OmikujiApp.git">
+              <img src="img/omikuji.jpg" alt="テキストテキストテキスト">
+            </a>
+            <h3 class="content-title">おみくじアプリ</h3>
+            <p>今日の運勢が占えます</p>
+          </li>
+          <li>
+            <img src="img/dentaku.png" alt="テキストテキストテキスト">
+            <h3 class="content-title">電卓アプリ</h3>
+            <p>計算が出来ます</p>
+          </li>
+          <li>
+            <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
+            <h3 class="content-title">タイトルタイトル</h3>
+            <p>テキストテキストテキスト</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2020 Profile</p>
+    </footer>
+
   </body>
+
 </html>
